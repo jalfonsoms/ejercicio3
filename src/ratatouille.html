@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comida frencesa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Apetite</title>
 </head>
 <body>
-    <header>
-        <h1>Comida francesa</h1>
-        <img src="../img/bandera.png" alt="Bandera de Francia">
-        <nav>
+    <header class="encabezado">
+        <h1>Comida Francesa</h1>
+        <nav class="navegador">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="ratatouille.html">Ratatouille</a></li>
@@ -19,9 +20,9 @@
         </nav>
     </header>
     
-    <main>
+    <main class="informacion">
         <h2>Ratatouille</h2>
-        <iframe 
+        <iframe class="video_plato"
             width="560" 
             height="315" 
             src="https://www.youtube.com/embed/Dpbq9b4bWdI?si=OerxOJVbWW66vXzw" 
@@ -30,7 +31,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowfullscreen>
         </iframe>
-        <h3 id="ingredientes">Ingredientes</h3>
+        <h2 id="ingredientes">Ingredientes</h2>
         <hr>
         <ul>
             <li>3 tomates pera. Como estos tomates suelen tener el mismo grosor, intenta que la berenjena y el calabacín tengan un grosor similar para que el tamaño de las rodajas coincida lo máximo posible.</li>
@@ -40,7 +41,7 @@
             <li>Tomillo seco o las hierbas que prefieras (romero, orégano…).</li>
             <li>Aceite de oliva virgen extra, pimienta negra recién molida y sal.</li>
         </ul>
-        <h3>Preparación</h3>
+        <h2>Preparación</h2>
         <hr>
         <ol>
             <li>Si quieres preparar nuestra salsa de tomate casera salsa de tomate casera sin duda es lo primero que tendrás que elaborar.</li>
@@ -61,7 +62,7 @@
         </ol>
     </main>
     
-    <footer>
+    <footer class="pie_pagina">
         <p>Jose Alfonso Mercado 2023 Mi Sitio Web</p>
     </footer>
 </body>
