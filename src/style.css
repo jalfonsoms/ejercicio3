@@ -7,7 +7,7 @@ body {
 }
 
 .encabezado {
-    background-image: url('/img/banderafrancia.webp');
+    background-image: url('../img/banderafrancia.webp');
     /* Ruta de la imagen de fondo */
     background-size: cover;
     /* La imagen se ajusta para cubrir todo el espacio */
@@ -19,7 +19,7 @@ body {
 }
 
 .encabezado h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico';
     color: rgba(14, 2, 3, 0.7);
     font-size: 36px;
     margin: 0;
@@ -28,7 +28,7 @@ body {
 
 
 .imagen_bandera {
-    width: 100px;
+    width: 100px; 
     height: auto;
 }
 
